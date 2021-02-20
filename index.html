@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Random Video Player</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/about.css">
+    <script type="text/javascript" src="js/video.js"></script>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<div id="topBar">
+			<h2>Random Video Player</h2>
+		</div><!-- #topBar -->
+		<main>
+			<p class="medium"> Click a category button to play a random video from that category, or hit Random to show a random video from the collection.</p>
+			<p class="medium"> Choosing a category will also change the color scheme of the site </p>
+			<div id="videoTable">
+				<table>
+					<tr>
+						<td class="light" onclick="playVid(0)">Wildlife</td>
+						<td class="light" onclick="playVid(1)">Pets</td>
+						<td class="light" onclick="playVid(2)">Water</td>
+						<td class="light" onclick="playVid(3)">Sky</td>
+						<td class="light" onclick="playVid(4)">Cities</td>
+						<td class="light" onclick="playVid(5)">People</td>
+						<td class="light" onclick="playVid(6)">Random</td>
+					</tr>
+				</table>
+			</div><!-- #videoTable -->
+			<video id="vid" controls >
+				<source src="https://www.pexels.com/video/video-of-sky-with-clouds-855785/" type="video/mp4">
+				Your browser does not support the video tag.
+				Please try updating your browser.
+			</video>		
+		</main>
+		<div id="bottomBar">
+		</div><!-- #bottomBar -->
+	</body>
+</html>

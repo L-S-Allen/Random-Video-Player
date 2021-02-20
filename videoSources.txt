@@ -1,0 +1,28 @@
+All videos are free stock videos from Pexels: https://www.pexels.com/
+
+sources, in the order they appear in the vidArr array in video.js are as follows:
+
+Wildlife
+-https://www.pexels.com/video/baby-elephants-playing-in-the-mud-3196505/
+-https://www.pexels.com/video/turtle-underwater-1456996/
+-https://www.pexels.com/video/marine-life-of-fishes-and-corals-underwater-3765078/
+Pets
+-https://www.pexels.com/video/video-of-a-tabby-cat-854982/
+-https://www.pexels.com/video/dogs-digging-855266/
+-https://www.pexels.com/video/dog-at-the-beach-853936/
+Water
+-https://www.pexels.com/video/bird-s-eye-view-of-ocean-waves-1918465/
+-https://www.pexels.com/video/blue-water-2776522/
+-https://www.pexels.com/video/waves-rushing-to-the-shore-1128104/
+Sky
+-https://www.pexels.com/video/video-footage-of-flying-above-and-over-the-clouds-3129752/
+-https://www.pexels.com/video/video-of-sky-with-clouds-855785/
+-https://www.pexels.com/video/sea-of-clouds-855679/
+Cities
+-https://www.pexels.com/video/view-of-city-in-timelapse-mode-1654216/
+-https://www.pexels.com/video/time-lapse-video-of-tall-buildings-854325/
+-https://www.pexels.com/video/aerial-view-of-city-with-fog-2034291/
+People
+-https://www.pexels.com/video/ski-montagne-skier-piste-de-ski-4274798/
+-https://www.pexels.com/video/people-having-fun-at-a-concert-2022395/
+-https://www.pexels.com/video/light-beach-art-night-4440816/

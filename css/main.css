@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:500|Raleway|Lato|Ubuntu+Mono&display=swap');
+
+
+#topBar, #bottomBar {
+  height: 50px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.8);
+  padding: 0px;
+}
+
+#bottomBar {
+  top: auto;
+  bottom: 0;
+  height: 20px;
+}
+
+body {
+   background-image: linear-gradient(to right top, #eec6dd, #e1cff3, #cddbff, #b7e7ff, #abf1ff, #aff6fd, #b5fafb, #bcfef8, #ccfef5, #dbfff4, #e8fff6, #f4fff9);
+   width: 100vw;
+   height: fit-content;
+   margin: 0px;
+   padding: 0px;
+   background-size: contain;
+   background-position: 0px 0px;
+}
+
+main {
+  margin: 50px 200px 10px 200px;
+  padding: 20px;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.1),rgba(255,255,255,0.0),rgba(255,255,255,0.0));
+  font-family: Raleway;
+  padding-top: 80px
+}
+
+.dark {
+  color: #23133e;
+}
+
+.medium {
+  color:#6b2756;
+  font-weight: bold;
+}
+
+td {
+  display: inline-block;
+  font-family: Lato;
+  font-weight: bold;
+  color: black;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 2px;
+  background-color:  #abf1ff;
+  box-shadow: -0px 2px 2px rgba(0,0,0,0.2),0px 2px 2px rgba(0,0,0,0.2);
+}
+
+#videoTable {
+  width:fit-content;
+  max-width: 648px;
+  margin: 40px auto 20px auto;
+}
+
+table {
+  width: 100%;
+}
+
+h2 {
+ color: white;
+ font-family: Raleway;
+ font-weight: lighter;
+ padding: 12px 0px 0px 20%;
+ margin: 0px;
+}
+
+p {
+  margin-left: 30px;
+  margin: 0px 0px 0px 30px;
+}
+
+/* video container and welcome message */
+
+video {
+  width: 91%;
+  max-width: 800px;
+  margin: 10px auto 10px auto;
+  height: 400px;
+  padding: 0px;
+  display: none;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.5);
+  box-shadow: -1px 2px 5px rgba(0,0,0,0.5),1px 2px 5px rgba(0,0,0,0.5);
+}
